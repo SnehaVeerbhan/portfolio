@@ -336,7 +336,7 @@ header.sticky{
   top: 0;
   left: 0;
   width: 100%;
-  height: 240px;
+  height: 250px;
   background: rgba(124, 50, 188, 0.599);
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -386,7 +386,7 @@ header.sticky{
 .s1 img {
   max-width: 100%;
   width: 100%;
-  height: 240px;
+  height: 250px;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.45s ease, filter 0.45s ease;
@@ -744,11 +744,12 @@ header.sticky{
   }
 
   .s1 img {
-    height: 240px;
+    height: 200px; 
   }
 
   .s1 .overlay {
     font-size: 16px; 
+    height: 200px; 
   }
 }
 
@@ -758,12 +759,13 @@ header.sticky{
     grid-gap: 1rem;
   }
 
-  .s1 img {
-    height: 240px; 
+  .s1 img { 
+    height: 150px;
   }
 
   .s1 .overlay {
     font-size: 14px; 
+    height: 150px;
   }
 }
 
