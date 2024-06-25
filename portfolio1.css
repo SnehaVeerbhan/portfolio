@@ -370,7 +370,7 @@ header.sticky{
 
 
 .row {
-  background: #ffffff;
+  background: transparent;
   box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
   border-radius: 12px;
   padding: 0px;
