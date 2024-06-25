@@ -772,7 +772,7 @@ header.sticky{
 @media (max-width: 480px) {
   .skills-content {
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
+    grid-gap: 1.5rem;
   }
 
   .s1 img {
@@ -787,7 +787,7 @@ header.sticky{
 @media (max-width: 340px) {
   .skills-content {
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
   }
 
   .s1 img {
