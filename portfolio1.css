@@ -336,7 +336,7 @@ header.sticky{
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 140px;
   background: rgba(124, 50, 188, 0.599);
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -369,6 +369,7 @@ header.sticky{
 }
 
 .row {
+  height: 240px;
   background: transparent;
   box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
   border-radius: 12px;
@@ -385,7 +386,7 @@ header.sticky{
 .s1 img {
   max-width: 100%;
   width: 100%;
-  height: auto;
+  height: 140px;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.45s ease, filter 0.45s ease;
@@ -771,17 +772,32 @@ header.sticky{
 @media (max-width: 480px) {
   .skills-content {
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
   }
 
   .s1 img {
-    height: auto; 
+    height: 200px; 
   }
 
   .s1 .overlay {
     font-size: 14px; 
-   
+    height: 200px; 
   }
 }
 
+@media (max-width: 340px) {
+  .skills-content {
+    grid-template-columns: 1fr;
+    grid-gap: 2.5rem;
+  }
+
+  .s1 img {
+    height: 260px; 
+  }
+
+  .s1 .overlay {
+    font-size: 14px; 
+    height: 260px; 
+  }
+}
 
