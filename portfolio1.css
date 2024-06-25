@@ -776,7 +776,7 @@ header.sticky{
   }
 
   .s1 img {
-    height: 120px; 
+    height: 200px; 
   }
 
   .s1 .overlay {
@@ -787,11 +787,11 @@ header.sticky{
 @media (max-width: 340px) {
   .skills-content {
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1.5rem;
   }
 
   .s1 img {
-    height: 100px; 
+    height: 220px; 
   }
 
   .s1 .overlay {
